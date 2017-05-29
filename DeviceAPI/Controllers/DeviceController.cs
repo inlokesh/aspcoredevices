@@ -14,6 +14,7 @@ namespace DeviceAPI.Controllers
         private DeviceTableStorageController deviceTableController = new DeviceTableStorageController();
 
         // GET: api/Device
+        [Route("GetAllDevices")]
         public List<Device> Get()
         {
             return deviceTableController.GetAllDevices();
