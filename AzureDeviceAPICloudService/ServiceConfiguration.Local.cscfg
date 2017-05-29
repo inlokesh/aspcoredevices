@@ -3,7 +3,7 @@
   <Role name="DeviceAPI">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="0f24356f-53c8-40fe-a7e9-4c8577ec3733" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="UseDevelopmentStorage=true" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
