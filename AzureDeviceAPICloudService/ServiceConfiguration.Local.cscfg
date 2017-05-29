@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureDeviceAPICloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="DeviceAPI">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="0f24356f-53c8-40fe-a7e9-4c8577ec3733" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
